@@ -1,0 +1,15 @@
+﻿
+
+Log for net: nuget
+Install-Package log4net -Version 2.0.8
+
+
+
+
+
+
+
+
+
+
+
