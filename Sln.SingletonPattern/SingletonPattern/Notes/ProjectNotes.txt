@@ -5,6 +5,9 @@ Install-Package log4net -Version 2.0.8
 
 
 
+sealed class:
+When applied to a class, the sealed modifier prevents other classes from inheriting from it. 
+In the following example, class B inherits from class A, but no class can inherit from class B.
 
 
 
