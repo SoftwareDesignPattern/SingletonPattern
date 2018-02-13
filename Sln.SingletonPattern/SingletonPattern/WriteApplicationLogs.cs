@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 
 namespace SingletonPattern
 {
@@ -22,14 +17,14 @@ namespace SingletonPattern
             return instance;
         }
 
-        public void Write(string str)
+        public void WriteInFile(string str)
         {
             _StreamWriter.WriteLine(str);
             _StreamWriter.Flush();           
         }
 
 
-        public void WriteClose()
+        public void WriteInFileClose()
         {
             _StreamWriter.Close();
         }
